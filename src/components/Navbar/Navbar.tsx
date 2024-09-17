@@ -5,6 +5,7 @@ import {
     RiShoppingCart2Line,
     RiShoppingCartFill
 } from "react-icons/ri";
+import Busca from "../Busca/Busca";
 
 const iconeProps = {
     color: 'white',
@@ -23,7 +24,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className={styles.busca}>
-                
+                <Busca/>
             </div>
             <div className={styles.icones}>
                 <a href="/carrinho">
