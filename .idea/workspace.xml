@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Desenvolvida pagina de categorias">
-      <change afterPath="$PROJECT_DIR$/src/store/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/ICategorias.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/categorias.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Config de slice de itens">
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/interfaces/IItem.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/itens.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/ICategorias.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/interfaces/ICategorias.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/categorias.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/categorias.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +48,9 @@
   }
 }</component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -82,10 +84,11 @@
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets" />
+      <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\store\reducers\interfaces" />
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\categorias" />
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\header" />
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\thumbnail" />
-      <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -120,7 +123,7 @@
       <workItem from="1736174349911" duration="6000" />
       <workItem from="1736174436080" duration="90000" />
       <workItem from="1736174541982" duration="4521000" />
-      <workItem from="1736342798298" duration="5061000" />
+      <workItem from="1736342798298" duration="6535000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -146,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736345898325</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="setup do redux e criado categorias slice">
+      <option name="closed" value="true" />
+      <created>1736348095357</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736348095357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +181,8 @@
     <MESSAGE value="Reiniciando projeto, correção de modulos" />
     <MESSAGE value="Criado Pagina padrao e implementadas rotas" />
     <MESSAGE value="Desenvolvida pagina de categorias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvida pagina de categorias" />
+    <MESSAGE value="setup do redux e criado categorias slice" />
+    <MESSAGE value="Config de slice de itens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Config de slice de itens" />
   </component>
 </project>

@@ -9,7 +9,7 @@ import escritorioHeader from "../../assets/categorias/header/escritorio.png";
 import somThumb from "../../assets/categorias/thumbnail/som.png";
 import somHeader from "../../assets/categorias/header/som.png";
 import {createSlice} from "@reduxjs/toolkit";
-import ICategorias from "./ICategorias";
+import ICategorias from "./interfaces/ICategorias";
 
 const estadoInicial: ICategorias[] = [{
     nome: 'Eletrônicos',
