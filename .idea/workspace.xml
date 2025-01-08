@@ -5,30 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Busca/Busca.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Busca/Busca.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PaginaPadrao/PaginaPadrao.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PaginaPadrao/PaginaPadrao.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/header/automotivo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/header/eletronicos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/header/escritorio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/header/jogos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/header/som.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/thumbnail/automotivo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/thumbnail/eletronicos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/thumbnail/escritorio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/thumbnail/jogos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/categorias/thumbnail/som.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fundo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/inicial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/IHomeProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "npm.start.executor": "Debug",
+    "npm.start.executor": "Run",
     "settings.editor.selected.configurable": "watcher.settings",
     "ts.external.directory.path": "C:\\Projetos\\MeusProjetos\\react-redux-trato-tech\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
@@ -97,6 +94,9 @@
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\categorias" />
+      <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\header" />
+      <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\thumbnail" />
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets" />
     </key>
   </component>
@@ -112,7 +112,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
@@ -131,7 +131,8 @@
       <workItem from="1736174241969" duration="63000" />
       <workItem from="1736174349911" duration="6000" />
       <workItem from="1736174436080" duration="90000" />
-      <workItem from="1736174541982" duration="4155000" />
+      <workItem from="1736174541982" duration="4521000" />
+      <workItem from="1736342798298" duration="2847000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -141,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736174580235</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Criado Pagina padrao e implementadas rotas">
+      <option name="closed" value="true" />
+      <created>1736181984468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736181984468</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Reiniciando projeto, correção de modulos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reiniciando projeto, correção de modulos" />
+    <MESSAGE value="Criado Pagina padrao e implementadas rotas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criado Pagina padrao e implementadas rotas" />
   </component>
 </project>
