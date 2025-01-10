@@ -1,4 +1,4 @@
-export default interface IItem {
+export interface IItemProps {
     titulo: string;
     descricao: string;
     foto: string;
