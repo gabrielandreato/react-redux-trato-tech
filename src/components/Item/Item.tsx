@@ -9,6 +9,7 @@ import {FaCartPlus} from 'react-icons/fa'
 import {useAppDispatch, useAppSelector} from "../../store/hooks";
 import {mudarFavorito} from "../../store/reducers/itens";
 import {mudarCarrinho} from "../../store/reducers/carrinho";
+import classNames from "classnames";
 
 const iconeProps = {
     size: 24,
@@ -16,7 +17,7 @@ const iconeProps = {
 }
 
 
-export default function Item({id, foto, preco, titulo, favorito, descricao}: IItemProps) {
+export default function Item({id, foto, preco, titulo, favorito, descricao, carrinho}: IItemProps) {
     const dispatch = useAppDispatch();
 
     const resolverFavorito = () => {
@@ -30,7 +31,9 @@ export default function Item({id, foto, preco, titulo, favorito, descricao}: IIt
     const estaNoCarrinho: boolean = useAppSelector(state => state.carrinho.some(item => item.idItem === id));
 
     return (
-        <div className={styles.item}>
+        <div className={classNames(styles.item, {
+            [styles.itemNoCarrinho]: carrinho
+        })}>
             <div className={styles['item-imagem']}>
                 <img src={foto} alt={titulo}/>
             </div>

@@ -4,21 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Desenvolvida tela de itens, funcionalidade de carrinho, e favorito">
-      <change afterPath="$PROJECT_DIR$/src/components/Item/IItemProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Item/Item.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Categoria/Categoria.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/carrinho.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/interfaces/ICarrinho.ts" afterDir="false" />
+    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/TituloComImagem/TituloComImagem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/TituloComImagem/TituloComImagem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/TituloSemImagem/TituloSemImagem.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/TituloSemImagem/TituloSemImagem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/IHomeProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/IHeaderProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/IItemProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/IItemProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/interfaces/IItem.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/interfaces/IItem.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/itens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/itens.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -130,7 +129,8 @@
       <workItem from="1736174436080" duration="90000" />
       <workItem from="1736174541982" duration="4521000" />
       <workItem from="1736342798298" duration="7153000" />
-      <workItem from="1736514005235" duration="6250000" />
+      <workItem from="1736514005235" duration="7535000" />
+      <workItem from="1736783433810" duration="3632000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -180,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736349427434</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Desenvolvida tela de itens, funcionalidade de carrinho, e favorito">
+      <option name="closed" value="true" />
+      <created>1736520505047</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736520505048</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,5 +217,17 @@
     <MESSAGE value="imagens de itens" />
     <MESSAGE value="Desenvolvida tela de itens, funcionalidade de carrinho, e favorito" />
     <option name="LAST_COMMIT_MESSAGE" value="Desenvolvida tela de itens, funcionalidade de carrinho, e favorito" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Header/TituloSemImagem/TituloSemImagem.tsx</url>
+          <line>4</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

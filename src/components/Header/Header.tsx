@@ -1,20 +1,25 @@
 import styles from './Header.module.scss';
-import {IHomeProps} from "./IHomeProps";
+import {IHeaderProps} from "./IHeaderProps";
+import TituloComImagem from "./TituloComImagem/TituloComImagem";
+import TituloSemImagem from "./TituloSemImagem/TituloSemImagem";
 
 
-export default function Header({titulo, descricao, imagem, className = ''}: IHomeProps) {
+export default function Header({titulo, descricao, imagem, className = ''}: IHeaderProps) {
     return (
         <header className={`${styles.header} ${className}`}>
-            <div className={styles['header-texto']}>
-                <h1>{titulo}</h1>
-                <h2>{descricao}</h2>
-            </div>
-            <div className={styles['header-imagem']}>
-                <img
-                    alt={titulo}
-                    src={imagem}
+            {titulo && !imagem &&
+                <TituloSemImagem
+                    titulo={titulo}
+                    descricao={descricao}
                 />
-            </div>
+            }
+            {titulo && imagem &&
+                <TituloComImagem
+                    titulo={titulo}
+                    descricao={descricao}
+                    imagem={imagem}
+                />
+            }
         </header>
     )
 }

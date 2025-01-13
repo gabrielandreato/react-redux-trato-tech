@@ -6,4 +6,5 @@ export interface IItemProps {
     preco: number;
     id: string;
     categoria: string;
+    carrinho?: boolean;
 }
