@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Desenvolvido subtotal do carrinho">
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/busca.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/IItemProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/IItemProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Busca/Busca.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Busca/Busca.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/carrinho.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/carrinho.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -124,7 +126,7 @@
       <workItem from="1736342798298" duration="7153000" />
       <workItem from="1736514005235" duration="7535000" />
       <workItem from="1736783433810" duration="3773000" />
-      <workItem from="1736791479113" duration="4782000" />
+      <workItem from="1736791479113" duration="7225000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -190,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736787216076</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Desenvolvido subtotal do carrinho">
+      <option name="closed" value="true" />
+      <created>1736796337460</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736796337460</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
