@@ -2,13 +2,21 @@ import styles from './Carrinho.module.scss';
 import Header from "../../components/Header/Header";
 import {useAppSelector} from "../../store/hooks";
 import Item from "../../components/Item/Item";
+import IItem from "../../store/reducers/interfaces/IItem";
 
 export default function Carrinho() {
-    const itens = useAppSelector (state => {
-        return state.itens
-            .filter(item => state.carrinho.map(x => x.idItem).includes(item.id));
+    const {itens, total} = useAppSelector (state => {
+        const itens: IItem[] = [];
+        let total = 0;
+        state.carrinho.map(itemNoCarrinho => {
+            const item = state.itens.find(iten => itemNoCarrinho.idItem === iten.id);
+            if(item) {
+                itens.push(item);
+                total += (item.preco * itemNoCarrinho.quantidade);
+            }
+        })
+        return { itens , total };
     })
-    console.log(itens);
 
     return (
         <div>
@@ -23,7 +31,7 @@ export default function Carrinho() {
                         Resumo da Compra
                     </strong>
                     <span>
-                        Subtotal: <strong> R$ {0.0.toFixed(2)}</strong>
+                        Subtotal: <strong> R$ {total.toFixed(2)}</strong>
                     </span>
                 </div>
             </div>

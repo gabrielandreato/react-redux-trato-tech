@@ -17,10 +17,16 @@ const carrinhoSlice = createSlice({
                 }
             ];
             return state.filter(item => item.idItem !== payload)
+        },
+        mudarQuantidade: (state, {payload}) => {
+            state.map(itemNoCarrinho => {
+                if (itemNoCarrinho.idItem === payload.id) itemNoCarrinho.quantidade += payload.quantidade
+                return itemNoCarrinho;
+            })
         }
     }
 })
 
-export const {mudarCarrinho} = carrinhoSlice.actions;
+export const {mudarCarrinho, mudarQuantidade} = carrinhoSlice.actions;
 
 export default carrinhoSlice.reducer;
