@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Desenvolvido subtotal do carrinho">
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/busca.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/IButtonProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Busca/Busca.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Busca/Busca.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PaginaPadrao/PaginaPadrao.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PaginaPadrao/PaginaPadrao.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/carrinho.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/carrinho.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/itens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/itens.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +68,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature/20250106-recriando",
-    "js.last.introduce.type": "CONST",
-    "last_opened_file_path": "C:/Projetos/MeusProjetos/react-redux-trato-tech/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "ts.external.directory.path": "C:\\Projetos\\MeusProjetos\\react-redux-trato-tech\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/20250106-recriando&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projetos/MeusProjetos/react-redux-trato-tech/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Projetos\\MeusProjetos\\react-redux-trato-tech\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets" />
@@ -127,6 +134,9 @@
       <workItem from="1736514005235" duration="7535000" />
       <workItem from="1736783433810" duration="3773000" />
       <workItem from="1736791479113" duration="7225000" />
+      <workItem from="1736948435215" duration="1419000" />
+      <workItem from="1736957050600" duration="5574000" />
+      <workItem from="1737126769735" duration="2351000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
