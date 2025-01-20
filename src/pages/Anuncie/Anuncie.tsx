@@ -25,11 +25,11 @@ export default function Anuncie() {
                 descricao={"Anuncie seu produto no melhor site do Brasil."}
             />
             <form className={styles.formulario} onSubmit={handleSubmit(cadastrar)}>
-                <input className={errors.nome ? styles['input-erro'] : ''}
-                       {...register('nome', {required: 'O campo nome é obrigatório'})}
+                <input className={errors.titulo ? styles['input-erro'] : ''}
+                       {...register('titulo', {required: 'O campo nome é obrigatório'})}
                        placeholder={"Nome do Produto"} alt={"nome do produto"}
                 />
-                {errors.nome && <span className={styles['mensagem-erro']}> {errors.nome.message?.toString()} </span>}
+                {errors.titulo && <span className={styles['mensagem-erro']}> {errors.titulo.message?.toString()} </span>}
 
                 <input className={errors.descricao ? styles['input-erro'] : ''}
                        {...register('descricao', {required: 'O campo nome é obrigatório'})}
@@ -37,11 +37,11 @@ export default function Anuncie() {
                 />
                 {errors.descricao && <span className={styles['mensagem-erro']}> {errors.descricao.message?.toString()} </span>}
 
-                <input className={errors.imagem ? styles['input-erro'] : ''}
-                       {...register('imagem', {required: 'O campo nome é obrigatório'})}
+                <input className={errors.foto ? styles['input-erro'] : ''}
+                       {...register('foto', {required: 'O campo nome é obrigatório'})}
                        placeholder={"URL da imagem do produto"} alt={"URL da imagem do produto"}
                 />
-                {errors.imagem && <span className={styles['mensagem-erro']}> {errors.imagem.message?.toString()} </span>}
+                {errors.foto && <span className={styles['mensagem-erro']}> {errors.foto.message?.toString()} </span>}
 
 
                 <select
@@ -56,7 +56,7 @@ export default function Anuncie() {
                 {errors.categoria && <span className={styles['mensagem-erro']}> {errors.categoria.message?.toString()} </span>}
 
                 <input className={errors.preco ? styles['input-erro'] : ''}
-                       {...register('preco', {required: 'O campo nome é obrigatório'})}
+                       {...register('preco', {required: 'O campo nome é obrigatório', valueAsNumber: true})}
                        type={"number"}
                        placeholder={"Preço do produto"}
                 />

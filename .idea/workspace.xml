@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Desenvolvido subtotal do carrinho">
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Button/IButtonProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" afterDir="false" />
+    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PaginaPadrao/PaginaPadrao.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PaginaPadrao/PaginaPadrao.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Carrinho/Carrinho.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/itens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/itens.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +125,8 @@
       <workItem from="1736791479113" duration="7225000" />
       <workItem from="1736948435215" duration="1419000" />
       <workItem from="1736957050600" duration="5574000" />
-      <workItem from="1737126769735" duration="2351000" />
+      <workItem from="1737126769735" duration="4206000" />
+      <workItem from="1737388450891" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -210,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736796337460</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implementado hook form">
+      <option name="closed" value="true" />
+      <created>1737132489321</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737132489321</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +238,8 @@
     <MESSAGE value="Desenvolvida tela de itens, funcionalidade de carrinho, e favorito" />
     <MESSAGE value="Desenvolvida funcionalidade de carrinho" />
     <MESSAGE value="Desenvolvido subtotal do carrinho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desenvolvido subtotal do carrinho" />
+    <MESSAGE value="Implementado hook form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado hook form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

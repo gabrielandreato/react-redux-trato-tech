@@ -10,10 +10,15 @@ export default function Categoria() {
         const regexp = new RegExp(state.busca, "i");
         return {
         categoria: state.categorias.find(categoria => categoria.id === nomeCategoria),
-        itens: state.itens.filter(item => item.categoria !== nomeCategoria && item.titulo.match(regexp)&& item.titulo.match(regexp)),
+        itens: state.itens
+            .filter(item =>
+                item.categoria === nomeCategoria
+                && item.titulo.match(regexp)
+            ),
         }
     });
 
+    console.log(itens);
     return (
         <div>
             <Header
