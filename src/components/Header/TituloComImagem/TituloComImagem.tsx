@@ -1,12 +1,13 @@
 import {IHeaderProps} from "../IHeaderProps";
 import styles from './TituloComImagem.module.scss';
 
-export default function TituloComImagem({titulo, descricao, imagem, className}: IHeaderProps) {
+export default function TituloComImagem({titulo, descricao, imagem, className, children}: IHeaderProps) {
     return (
         <div className={`${className} ${styles.header}`}>
             <div className={styles['header-texto']}>
                 <h1>{titulo}</h1>
                 <h2>{descricao}</h2>
+                {children}
             </div>
             <div className={styles['header-imagem']}>
                 <img

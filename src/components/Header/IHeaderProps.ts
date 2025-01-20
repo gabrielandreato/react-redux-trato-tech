@@ -3,4 +3,5 @@ export interface IHeaderProps {
     descricao:  string;
     className?: string ;
     imagem?: string;
+    children?: React.ReactNode;
 }

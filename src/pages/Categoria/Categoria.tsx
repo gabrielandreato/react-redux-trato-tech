@@ -1,8 +1,9 @@
 import Header from "../../components/Header/Header";
 import {useAppSelector} from "../../store/hooks";
-import {useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import styles from './Categoria.module.scss';
 import Item from "../../components/Item/Item";
+import Button from "../../components/Button/Button";
 
 export default function Categoria() {
     const {nomeCategoria} = useParams();
@@ -17,6 +18,7 @@ export default function Categoria() {
             ),
         }
     });
+    const navigate = useNavigate();
 
     console.log(itens);
     return (
@@ -25,7 +27,11 @@ export default function Categoria() {
                 titulo={categoria!.nome}
                 descricao={categoria!.descricao}
                 imagem={categoria!.header}
-            />
+            >
+                <Button onClick={() => navigate(`/anuncie/${nomeCategoria}`)} type={"button"} >
+                    Quero anunciar
+                </Button>
+            </Header>
             <div className={styles.itens}>
                 {itens?.map(item => (
                     <div key={item.id}>

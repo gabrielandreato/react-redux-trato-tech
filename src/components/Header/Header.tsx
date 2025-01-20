@@ -4,21 +4,25 @@ import TituloComImagem from "./TituloComImagem/TituloComImagem";
 import TituloSemImagem from "./TituloSemImagem/TituloSemImagem";
 
 
-export default function Header({titulo, descricao, imagem, className = ''}: IHeaderProps) {
+export default function Header({titulo, descricao, imagem, className = '', children}: IHeaderProps) {
     return (
         <header className={`${styles.header} ${className}`}>
             {titulo && !imagem &&
                 <TituloSemImagem
                     titulo={titulo}
                     descricao={descricao}
-                />
+                >
+                    {children}
+                </TituloSemImagem>
             }
             {titulo && imagem &&
                 <TituloComImagem
                     titulo={titulo}
                     descricao={descricao}
                     imagem={imagem}
-                />
+                >
+                    {children}
+                </TituloComImagem>
             }
         </header>
     )

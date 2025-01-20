@@ -4,11 +4,21 @@ import {useAppDispatch, useAppSelector} from "../../store/hooks";
 import Button from "../../components/Button/Button";
 import {useForm} from 'react-hook-form';
 import {cadastrarItem} from "../../store/reducers/itens";
+import {useParams} from "react-router-dom";
 
 export default function Anuncie() {
     const categorias = useAppSelector(state => state.categorias);
+    const {nomeCategoria = undefined} = useParams();
 
-    const {register, handleSubmit, formState} = useForm();
+    const {register, handleSubmit, formState} = useForm({
+        defaultValues: {
+            titulo: undefined,
+            categoria: nomeCategoria,
+            descricao: undefined,
+            foto: undefined,
+            preco: undefined
+        }
+    });
 
     const {errors} = formState;
 
@@ -47,6 +57,7 @@ export default function Anuncie() {
                 <select
                     className={errors.categoria ? styles['input-erro'] : ''}
                     {...register('categoria', {required: 'O campo nome é obrigatório'})}
+                    disabled={nomeCategoria !== undefined}
                 >
                     <option value='' disabled selected>Selecione a categoria...</option>
                     {categorias.map((categoria) => (

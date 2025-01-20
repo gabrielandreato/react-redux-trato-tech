@@ -4,6 +4,7 @@ import Header from "../../components/Header/Header";
 import relogio from '../../assets/inicial.png';
 import {useNavigate} from "react-router-dom";
 import {useAppSelector} from "../../store/hooks";
+import Button from "../../components/Button/Button";
 
 export default function Home() {
     const navigate = useNavigate();
@@ -16,7 +17,11 @@ export default function Home() {
                 descricao={'Compre diversos tipos de produto no melhor site do Brasil!'}
                 imagem={relogio}
                 className={styles.header}
-            />
+            >
+                <Button onClick={() => navigate('/anuncie')} type={"button"}>
+                    Quero anunciar
+                </Button>
+            </Header>
             <div className={styles.categorias}>
                 <div className={styles['categorias-title']}>
                     <h1>Categorias</h1>

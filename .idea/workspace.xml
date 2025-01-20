@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="">
+    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Correcao de filtro de categoria e campos do form de anuncie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/IHeaderProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/IHeaderProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/TituloComImagem/TituloComImagem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TituloComImagem/TituloComImagem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/TituloSemImagem/TituloSemImagem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TituloSemImagem/TituloSemImagem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +132,7 @@
       <workItem from="1736948435215" duration="1419000" />
       <workItem from="1736957050600" duration="5574000" />
       <workItem from="1737126769735" duration="4206000" />
-      <workItem from="1737388450891" duration="3232000" />
+      <workItem from="1737388450891" duration="4399000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -208,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737132489321</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Correcao de filtro de categoria e campos do form de anuncie">
+      <option name="closed" value="true" />
+      <created>1737392271936</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737392271936</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +253,8 @@
     <MESSAGE value="Desenvolvida funcionalidade de carrinho" />
     <MESSAGE value="Desenvolvido subtotal do carrinho" />
     <MESSAGE value="Implementado hook form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementado hook form" />
+    <MESSAGE value="Correcao de filtro de categoria e campos do form de anuncie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcao de filtro de categoria e campos do form de anuncie" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
