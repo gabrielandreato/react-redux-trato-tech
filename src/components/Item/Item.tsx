@@ -2,15 +2,20 @@ import styles from './Item.module.scss';
 import {IItemProps} from "./IItemProps";
 import {
     AiOutlineHeart,
-    AiFillHeart
+    AiFillHeart,
+    AiOutlineCheck,
+    AiFillEdit,
+    AiFillCloseCircle
 } from 'react-icons/ai'
 
 import {FaCartPlus, FaMinusCircle, FaPlusCircle} from 'react-icons/fa'
 import {useAppDispatch, useAppSelector} from "../../store/hooks";
-import {mudarFavorito} from "../../store/reducers/itens";
+import {deletarItem, mudarFavorito, mudarItem} from "../../store/reducers/itens";
 import {mudarCarrinho, mudarQuantidade} from "../../store/reducers/carrinho";
 import classNames from "classnames";
 import {ICarrinho} from "../../store/reducers/interfaces/ICarrinho";
+import {memo, useState} from "react";
+import Input from "../Input/Input";
 
 const iconeProps = {
     size: 24,
@@ -22,7 +27,10 @@ const quantidadeProps = {
     color: '#1875E8'
 }
 
-export default function Item({id, foto, preco, titulo, favorito, descricao, carrinho}: IItemProps) {
+ function Item({id, foto, preco, titulo, favorito, descricao, carrinho}: IItemProps) {
+    const [modoEdicao, setModoEdicao] = useState<boolean>(false);
+    const [novoTitulo, setNovoTitulo] = useState<string>(titulo);
+
     const dispatch = useAppDispatch();
 
     const resolverFavorito = () => {
@@ -38,16 +46,48 @@ export default function Item({id, foto, preco, titulo, favorito, descricao, carr
             state.carrinho.find(item => item.idItem === id)
         );
 
+    const componenteModoEdicao = <>
+        {modoEdicao
+            ? <AiOutlineCheck
+                {...iconeProps}
+                className={styles['item-acao']}
+                onClick={() => {
+                    setModoEdicao(false)
+                    dispatch(mudarItem({
+                        id,
+                        item: {titulo: novoTitulo}
+                    }))
+                }}
+            />
+            : <AiFillEdit
+                {...iconeProps}
+                className={styles['item-acao']}
+                onClick={() => setModoEdicao(true)}
+            />
+        }
+    </>
+
     return (
         <div className={classNames(styles.item, {
             [styles.itemNoCarrinho]: carrinho
         })}>
+            <AiFillCloseCircle
+                {...iconeProps}
+                className={`${styles['item-acao']} ${styles['item-deletar']}`}
+                onClick={() => dispatch(deletarItem(id))}
+            />
             <div className={styles['item-imagem']}>
                 <img src={foto} alt={titulo}/>
             </div>
             <div className={styles['item-descricao']}>
                 <div className={styles['item-titulo']}>
-                    <h2>{titulo}</h2>
+                    {modoEdicao
+                        ? <Input
+                            value={novoTitulo}
+                            onChange={e => setNovoTitulo(e.target.value)}
+                        />
+                        : <h2>{titulo}</h2>
+                    }
                     <p>{descricao}</p>
                 </div>
                 <div className={styles['item-info']}>
@@ -79,13 +119,18 @@ export default function Item({id, foto, preco, titulo, favorito, descricao, carr
                                         />
                                     </div>
                                 )
-                                : (<FaCartPlus
-                                    onClick={resolverCarrinho}
-                                    {...iconeProps}
-                                    color={itemNoCarrinho ? '#1875E8' : iconeProps.color}
-                                />)
-                        }
+                                : (
+                                    <>
+                                        <FaCartPlus
+                                            onClick={resolverCarrinho}
+                                            {...iconeProps}
+                                            color={itemNoCarrinho ? '#1875E8' : iconeProps.color}
 
+                                        />
+                                        {componenteModoEdicao}
+                                    </>
+                                )
+                        }
                     </div>
                 </div>
             </div>
@@ -93,3 +138,5 @@ export default function Item({id, foto, preco, titulo, favorito, descricao, carr
         </div>
     )
 }
+
+export default memo(Item);

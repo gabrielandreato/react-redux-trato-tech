@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Correcao de filtro de categoria e campos do form de anuncie">
+    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Input/IInputProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/IHeaderProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/IHeaderProps.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/TituloComImagem/TituloComImagem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TituloComImagem/TituloComImagem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/TituloSemImagem/TituloSemImagem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/TituloSemImagem/TituloSemImagem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/itens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/itens.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,13 @@
       <workItem from="1736948435215" duration="1419000" />
       <workItem from="1736957050600" duration="5574000" />
       <workItem from="1737126769735" duration="4206000" />
-      <workItem from="1737388450891" duration="4399000" />
+      <workItem from="1737388450891" duration="4547000" />
+      <workItem from="1737561569320" duration="2730000" />
+      <workItem from="1737565979350" duration="14000" />
+      <workItem from="1737572948446" duration="3635000" />
+      <workItem from="1737645797276" duration="3386000" />
+      <workItem from="1737662019435" duration="673000" />
+      <workItem from="1738182757490" duration="1902000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -222,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737392271936</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Botao de quero anunciar, funcionalidade de auto preenchimento do botao de categoria">
+      <option name="closed" value="true" />
+      <created>1737393481922</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737393481922</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +268,8 @@
     <MESSAGE value="Desenvolvido subtotal do carrinho" />
     <MESSAGE value="Implementado hook form" />
     <MESSAGE value="Correcao de filtro de categoria e campos do form de anuncie" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcao de filtro de categoria e campos do form de anuncie" />
+    <MESSAGE value="Botao de quero anunciar, funcionalidade de auto preenchimento do botao de categoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Botao de quero anunciar, funcionalidade de auto preenchimento do botao de categoria" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

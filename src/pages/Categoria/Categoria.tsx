@@ -20,7 +20,6 @@ export default function Categoria() {
     });
     const navigate = useNavigate();
 
-    console.log(itens);
     return (
         <div>
             <Header
