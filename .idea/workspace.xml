@@ -5,15 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Input/IInputProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/config/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/categoriaService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Item/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Item/Item.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Anuncie/Anuncie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Categoria/Categoria.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/header/automotivo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/header/automotivo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/header/eletronicos.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/header/eletronicos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/header/escritorio.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/header/escritorio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/header/jogos.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/header/jogos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/header/som.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/header/som.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/thumbnail/automotivo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/thumbnail/automotivo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/thumbnail/eletronicos.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/thumbnail/eletronicos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/thumbnail/escritorio.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/thumbnail/escritorio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/thumbnail/jogos.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/thumbnail/jogos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/categorias/thumbnail/som.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/categorias/thumbnail/som.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/airpod.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/airpod.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/assento.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/assento.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/assistente-virtual-tela.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/assistente-virtual-tela.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/assistente-virtual.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/assistente-virtual.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/cadeira.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/cadeira.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/caderno.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/caderno.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/caixa-som-bluetooth.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/caixa-som-bluetooth.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/caixa-som.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/caixa-som.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/capa-volante-couro.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/capa-volante-couro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/capa-volante-cristais.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/capa-volante-cristais.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/console-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/console-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/console-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/console-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/guarda-treco.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/guarda-treco.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/jogo-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/jogo-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/jogo-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/jogo-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/leitor-livros.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/leitor-livros.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/manete.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/manete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/mini-system.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/mini-system.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/organizador-lateral.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/organizador-lateral.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/organizador-pastas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/organizador-pastas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/papel.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/papel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/suporte-veicular.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/suporte-veicular.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/tablet.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/tablet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/tv-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/tv-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/itens/tv-60.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/itens/tv-60.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/categorias.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/categorias.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/itens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/itens.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +83,10 @@
     &quot;accountId&quot;: &quot;9fcca078-5f4b-4068-9f8a-59ec729a3875&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -86,11 +125,11 @@
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\public\assets" />
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets" />
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\store\reducers\interfaces" />
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\categorias" />
       <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\header" />
-      <recent name="C:\Projetos\MeusProjetos\react-redux-trato-tech\src\assets\thumbnail" />
     </key>
   </component>
   <component name="RunManager">
@@ -138,7 +177,10 @@
       <workItem from="1737572948446" duration="3635000" />
       <workItem from="1737645797276" duration="3386000" />
       <workItem from="1737662019435" duration="673000" />
-      <workItem from="1738182757490" duration="1902000" />
+      <workItem from="1738182757490" duration="2785000" />
+      <workItem from="1738859572007" duration="2218000" />
+      <workItem from="1739751426208" duration="2948000" />
+      <workItem from="1739807977514" duration="1986000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -236,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737393481922</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Implementado feature de deleção de itens">
+      <option name="closed" value="true" />
+      <created>1738184756412</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738184756412</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +319,8 @@
     <MESSAGE value="Implementado hook form" />
     <MESSAGE value="Correcao de filtro de categoria e campos do form de anuncie" />
     <MESSAGE value="Botao de quero anunciar, funcionalidade de auto preenchimento do botao de categoria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Botao de quero anunciar, funcionalidade de auto preenchimento do botao de categoria" />
+    <MESSAGE value="Implementado feature de deleção de itens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado feature de deleção de itens" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
