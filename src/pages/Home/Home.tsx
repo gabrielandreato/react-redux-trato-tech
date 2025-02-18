@@ -1,29 +1,21 @@
 import styles from './Home.module.scss';
-import React, {useCallback, useEffect} from "react";
+import React, {useEffect} from "react";
 import Header from "../../components/Header/Header";
 import relogio from '../../assets/inicial.png';
 import {useNavigate} from "react-router-dom";
 import {useAppDispatch, useAppSelector} from "../../store/hooks";
 import Button from "../../components/Button/Button";
-import instance from "../../common/config/api";
-import {adicionarCategorias, buscarCategorias} from "../../store/reducers/categorias";
-import {adicionarItens} from "../../store/reducers/itens";
+import {buscarCategorias} from "../../store/reducers/categorias";
+import {buscarItem} from "../../store/reducers/itens";
 
 export default function Home() {
     const dispatch = useAppDispatch();
     const navigate = useNavigate();
     const categorias = useAppSelector(state => state.categorias);
 
-
-
-    const buscarItens = async () => {
-        const resposta = await instance.get('/itens');
-        dispatch(adicionarItens(resposta.data));
-    };
-
     useEffect(() => {
         dispatch(buscarCategorias());
-        buscarItens().then();
+        dispatch(buscarItem());
     }, []);
 
     return (

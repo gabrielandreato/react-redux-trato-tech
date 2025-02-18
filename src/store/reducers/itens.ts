@@ -1,8 +1,14 @@
-import {createSlice} from "@reduxjs/toolkit";
+import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import IItem from "./interfaces/IItem";
 import {v4 as uuid} from "uuid";
+import {itemService} from "../../services/itemService";
 
-const initialState: IItem[]  = [];
+const initialState: IItem[] = [];
+
+export const buscarItem = createAsyncThunk(
+    'item/buscar',
+    itemService.buscarItem
+)
 
 const itensSlice = createSlice({
     name: "item",
@@ -15,7 +21,7 @@ const itensSlice = createSlice({
             })
         },
         cadastrarItem: (state, {payload}) => {
-            state.push({ ...payload, id: uuid()});
+            state.push({...payload, id: uuid()});
         },
         mudarItem: (state, {payload}) => {
             const index = state.findIndex(item => item.id === payload.id);
@@ -28,9 +34,30 @@ const itensSlice = createSlice({
         adicionarItens: (state, {payload}) => {
             state.push(...payload);
         }
+    },
+    extraReducers: (builder) => {
+        builder.addCase(
+            buscarItem.fulfilled,
+            (state, {payload}) => {
+                return payload;
+            }
+        )
+            .addCase(
+                buscarItem.pending,
+                (state, {payload}) => {
+                    console.log("Carregando itens...")
+                }
+            )
+            .addCase(
+                buscarItem.rejected,
+                (state, {payload}) => {
+                    console.log("Busca de itens rejeitada.")
+                }
+            )
+
     }
 })
 
-export const { mudarFavorito, cadastrarItem, mudarItem, deletarItem, adicionarItens } = itensSlice.actions;
+export const {mudarFavorito, cadastrarItem, mudarItem, deletarItem, adicionarItens} = itensSlice.actions;
 
 export default itensSlice.reducer;

@@ -4,15 +4,22 @@ import './index.css';
 import Router from "./routes";
 import {Provider} from "react-redux";
 import {store} from "./store/store";
+import {createStandaloneToast} from '@chakra-ui/toast'
+
+const {ToastContainer, toast} = createStandaloneToast();
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-      <Provider store={store} >
-        <Router />
-      </Provider>
-  </React.StrictMode>
+    <Provider store={store}>
+        <Router/>
+        <ToastContainer/>
+    </Provider>
 );
+
+toast({
+    description: "esta funcionando...",
+    duration: 2000,
+})
 
