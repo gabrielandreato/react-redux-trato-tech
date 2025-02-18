@@ -18,8 +18,3 @@ root.render(
     </Provider>
 );
 
-toast({
-    description: "esta funcionando...",
-    duration: 2000,
-})
-

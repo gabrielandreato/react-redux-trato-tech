@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/services/itemService.ts" afterDir="false" />
+    <list default="true" id="6c939f20-8fa4-4069-b347-63819ca15a94" name="Changes" comment="Implementados caso para thunk, quando pendente e quando falha.&#10;Implementado Toast da ChakraUI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/categoriaService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/categoriaService.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/reducers/categorias.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/categorias.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/itens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/itens.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +141,7 @@
       <workItem from="1738859572007" duration="2218000" />
       <workItem from="1739751426208" duration="2948000" />
       <workItem from="1739807977514" duration="2133000" />
-      <workItem from="1739892678665" duration="2639000" />
+      <workItem from="1739892678665" duration="3422000" />
     </task>
     <task id="LOCAL-00001" summary="Reiniciando projeto, correção de modulos">
       <option name="closed" value="true" />
@@ -259,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739810375181</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Implementados caso para thunk, quando pendente e quando falha.&#10;Implementado Toast da ChakraUI">
+      <option name="closed" value="true" />
+      <created>1739897278911</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739897278911</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +298,8 @@
     <MESSAGE value="Botao de quero anunciar, funcionalidade de auto preenchimento do botao de categoria" />
     <MESSAGE value="Implementado feature de deleção de itens" />
     <MESSAGE value="Implementada server.js simulando API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementada server.js simulando API" />
+    <MESSAGE value="Implementados caso para thunk, quando pendente e quando falha.&#10;Implementado Toast da ChakraUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementados caso para thunk, quando pendente e quando falha.&#10;Implementado Toast da ChakraUI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -303,6 +308,11 @@
           <url>file://$PROJECT_DIR$/src/components/Header/TituloSemImagem/TituloSemImagem.tsx</url>
           <line>4</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/services/categoriaService.ts</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
