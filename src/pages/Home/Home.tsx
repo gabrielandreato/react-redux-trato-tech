@@ -5,7 +5,7 @@ import relogio from '../../assets/inicial.png';
 import {useNavigate} from "react-router-dom";
 import {useAppDispatch, useAppSelector} from "../../store/hooks";
 import Button from "../../components/Button/Button";
-import {buscarCategorias} from "../../store/reducers/categorias";
+import { carregarCategorias} from "../../store/reducers/categorias";
 import {buscarItem} from "../../store/reducers/itens";
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
     const categorias = useAppSelector(state => state.categorias);
 
     useEffect(() => {
-        dispatch(buscarCategorias());
+        dispatch(carregarCategorias());
         dispatch(buscarItem());
     }, []);
 
